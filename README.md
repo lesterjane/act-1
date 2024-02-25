@@ -1,32 +1,31 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Three Boxes with Images and Text</title>
   <style>
-    /* Define styles for the boxes */
-    .box {
-      width: 150px;
-      height: 200px;
+     {
+      width: 200px;
+      height: 250px;
       margin: 20px;
-      display: inline-block; /* This ensures boxes appear side by side */
-      text-align: center; /* Center the image and text */
+      display: inline-block; 
+      text-align: center; 
+      border: 1px solid #ccc; 
+      padding: 10px;
     }
-    /* Define different colors for each box */
-    #box1 {
-      background-color: red;
+ {
+      background-color: #ff9999; 
     }
     #box2 {
-      background-color: green;
+      background-color: #99ff99;
     }
     #box3 {
-      background-color: blue;
+      background-color: #9999ff; 
     }
-    /* Style the image */
-    .box img {
-      max-width: 100px; /* Adjust the size of the image as needed */
-      max-height: 100px;
+ {
+      max-width: 150px; 
+      max-height: 150px;
     }
   </style>
 </head>
@@ -46,3 +45,4 @@
   </div>
 </body>
 </html>
+
