@@ -10,12 +10,13 @@
             <img src="https://www.pngwing.com/en/search?q=polaroid+Frame">
             <p>Image 1</p>
         </div>
-        <div style="width: 210px; height: 210px; padding: 5px; display: inline-block; background-color: peach;">
+        <div style="width: 210px; height: 210px; padding: 5px; display: inline-block; background-color: black;">
             <img src="https://www.pngwing.com/en/search?q=polaroid+Frame">
             <p>Image 2</p>
         </div>
-        <div style="width: 210px; height: 210px; padding: 5px; display: inline-block; background-color: light blue;">
+        <div style="width: 210px; height: 210px; padding: 5px; display: inline-block; background-color: purple;">
             <img src="https://www.pngwing.com/en/search?q=polaroid+Frame">
+            <p>Image 3</p>
         </div>
     </body>
 </html>
