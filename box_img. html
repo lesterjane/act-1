@@ -1,21 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <div style="width: 200px; height: 250px; padding: 10px; display: inline-block; background-color: pink;">
-            <img src="https://www.pngwing.com/en/search?q=polaroid+Frame">
-            <p>ponyo the fish 1</p>
-        </div>
-        <div style="width: 210px; height: 210px; padding: 5px; display: inline-block; background-color: green;">
-            <img src="https://www.pngwing.com/en/search?q=polaroid+Frame">
-            <p>Kiki the cat 2</p>
-        </div>
-        <div style="width: 210px; height: 210px; padding: 5px; display: inline-block; background-color: purple;">
-            <img src="https://www.pngwing.com/en/search?q=polaroid+Frame">
-            <p>ghibli studio 2008 3</p>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            width: 150x;
+            height: 1500x;
+            margin: 100px;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .box img {
+            width: 500%;
+            height: 500%;
+            object-fit: cover;
+        }
+
+        .box1 { background-color: #3498db; }
+        .box2 { background-color: #2ecc71; }
+        .box3 { background-color: #e74c3c; }
+    </style>
+</head>
+<body>
+
+    <div style="width: 250px; height: 250px; padding: 5px; display: inline-block; background-color: rgb(71, 158, 230);">
+        <img src="https://catsonfilm.files.wordpress.com/2013/01/kiki04.jpg",  width="150px", height="150px">
+        <p>Kiki’s Delivery Service is a Major Cat Movie directed by Hayao Miyazaki just after My Neighbour Totoro. Kiki is a 13-year-old trainee witch. </p>  
+    <div style="width: 250px; height: 250px; padding: 5px; display: inline-block; background-color: rgb(165, 224, 28);">
+        <img src="https://catsonfilm.files.wordpress.com/2013/01/kiki01.jpg",  width="150px", height="150px">
+        <p>Kiki is growing and learning and meeting people, Jiji starts hanging out with a white cat a couple of rooftops away.</p>
+    </div>
+    <div style="width: 250px; height: 250px; padding: 5px; display: inline-block; background-color: rgb(218, 58, 178);">
+        <img src="https://catsonfilm.files.wordpress.com/2013/01/kiki05.jpg",  width="150px", height="150px">
+        <p>Kiki learns to fly again, but the days of talking to Jiji are over.</p>
+    </div>
+</body>
 </html>
